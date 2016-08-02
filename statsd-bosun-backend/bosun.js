@@ -13,9 +13,6 @@
  *   host: '127.0.0.1',   // Bosun host. (default 127.0.0.1)
  *   port: 8087,          // Bosun port. (default 8086)
  *   ssl: false,          // Bosun is hosted over SSL. (default false)
- *   flush: {
- *     enable: true       // Enable regular flush strategy. (default true)
- *   },
  *   tagPrefix: '_t_'     // Tag prefix for metrics that include tags
  * }
  *
