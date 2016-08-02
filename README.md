@@ -8,7 +8,7 @@ This is a pluggable backend for [StatsD](https://github.com/etsy/statsd), which 
 Copy lib/bosun.js to your statsd backends directory
 
 ## Configuration
-You have to give basic information about your Bosun or tsdbrelay server to use
+The backend will read the configuration options from the following 'bosun' hash defined in the main statsd config file:
 ```
 bosun: {
   host: '127.0.0.1',   // Bosun host. (default 127.0.0.1)
