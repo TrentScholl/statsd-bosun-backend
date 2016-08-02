@@ -1,17 +1,17 @@
 /*
  * Flush stats to Bosun (http://bosun.org/)
  *
- * To enable this backend, include 'statsd-bosun-backend' in the backends
+ * To enable this backend, include 'bosun' in the backends
  * configuration array:
  *
- *   backends: ['statsd-bosun-backend']
+ *   backends: ["./backends/bosun""]
  *
  * The backend will read the configuration options from the following
  * 'bosun' hash defined in the main statsd config file:
  *
  * bosun: {
  *   host: '127.0.0.1',   // Bosun host. (default 127.0.0.1)
- *   port: 8087,          // Bosun port. (default 8086)
+ *   port: 8087,          // Bosun port. (default 8087)
  *   ssl: false,          // Bosun is hosted over SSL. (default false)
  *   tagPrefix: '_t_'     // Tag prefix for metrics that include tags
  * }
