@@ -26,6 +26,7 @@ called `users` and tag the data `foo=bar`, you'd write the following to statsd:
 
 ## Notes
 - Bosun metadata is not yet supported
+- Metrics are suffixed with their types (eg. activeusers.gauge, responsetype.timer, downloads.count)
 - This backend can also be used to send metrics directly to an OpenTSDB server over HTTP/S
 
 ## Dependencies
