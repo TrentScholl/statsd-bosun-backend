@@ -1,0 +1,19 @@
+{
+  "name": "statsd-bosun-backend",
+  "description": "A backend for StatsD to emit stats to Bosun",
+  "author": "Trent Scholl",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TrentScholl/statsd-bosun-backend.git"
+  },
+  "version": "0.0.1",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "nodeunit": "0.7.x"
+  },
+  "engine": {
+    "node": ">=0.4"
+  },
+  "main": "statsd-bosun-backend/index.js"
+}
